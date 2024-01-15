@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <span>made with (Vue logo) with ❤️</span>
+    <span>made with <img alt="Vue logo" src="assets/logo.png" height="16"/> with ❤️</span>
   </footer>
 </template>
 
@@ -19,5 +19,6 @@ export default {
     background: white;
     opacity: 0.5;
 }
+
 
 </style>

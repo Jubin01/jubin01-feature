@@ -1,7 +1,7 @@
 <template>
   <div class="home"> 
     <h3>Home</h3>  
-    <div>"Welcome to the feature web" </div>
+    <div>"Home for html games and apps for dumb phones." </div>
 
   </div>
 </template>
