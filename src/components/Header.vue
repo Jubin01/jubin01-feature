@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <router-link to="/"><span>🏠 {{ title }}</span></router-link>
-    <span><router-link to="/notes"><img alt="Vue logo" src="assets/icons/notes.png" /></router-link> &nbsp;
+    <span><router-link to="/notes"><img alt="Notes" src="assets/icons/notes.png" /></router-link> &nbsp;
     <a href="https://jubin01.blogspot.com/" target="_blank"> <img alt="Vue logo" src="assets/icons/blogger.png" /></a></span>
   </header>
 </template>
