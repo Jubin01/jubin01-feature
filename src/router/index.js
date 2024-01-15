@@ -17,12 +17,13 @@ const routes = [
     path: "/notes",
     name: "notes",
     component:Notes
-  },
-  {
-    path: "/games",
-    name: "games",
-    component:Tictactoe
   }
+  // ,
+  // {
+  //   path: "/games",
+  //   name: "games",
+  //   component:Tictactoe
+  // }
 ];
 
 const router = new VueRouter({

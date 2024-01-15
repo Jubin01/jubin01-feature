@@ -1,6 +1,8 @@
 <template>
   <header class="header">
-    <span>{{ title }}</span>
+    <router-link to="/"><span>🏠 {{ title }}</span></router-link>
+    <span><router-link to="/notes"><img alt="Vue logo" src="assets/icons/notes.png" /></router-link> &nbsp;
+    <a href="https://jubin01.blogspot.com/" target="_blank"> <img alt="Vue logo" src="assets/icons/blogger.png" /></a></span>
   </header>
 </template>
 
@@ -21,7 +23,7 @@ export default {
   height: 36px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   background-color: #9b27af;
   padding: 3px 10px;
 }
@@ -31,6 +33,10 @@ export default {
   font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+img {
+    height: 20px;
 }
 
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <Header title="Jubin01" />
+    <Header title="JUBITRICK" />
     <nav>
-     <router-link to="/">Home</router-link> |
-      <router-link to="/notes">Notes</router-link> |
-      <router-link to="/games">Games</router-link> |
+     <!-- <router-link to="/">Home</router-link> | -->
+      
+      <!-- <router-link to="/games">Games</router-link> | -->
     </nav>
     <router-view />
     <Footer />
