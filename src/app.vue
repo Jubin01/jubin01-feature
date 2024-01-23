@@ -4,7 +4,8 @@
     <nav>
      <!-- <router-link to="/">Home</router-link> | -->
       
-      <!-- <router-link to="/games">Games</router-link> | -->
+      <router-link to="/games">Games</router-link> |
+      <router-link to="/apps">Apps</router-link> 
     </nav>
     <router-view />
     <Footer />
